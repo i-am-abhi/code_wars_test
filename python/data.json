@@ -1,0 +1,14 @@
+{
+	"users" : {
+		"nitish" : {
+			"password" : "garg",
+			"age" : 20,
+			"score" : 70
+		},
+		"sample" : {
+			"password" : "dummy",
+			"age" : 19,
+			"score" : 80
+		}
+	}
+}

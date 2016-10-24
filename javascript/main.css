@@ -1,0 +1,49 @@
+body {
+	background-color: #efefef;
+}
+
+.navbar-default {
+	background-color: #fff;
+	box-shadow: 0px 1px 1px 0px #ccc;
+}
+
+#page {
+	padding-top: 70px;
+}
+
+
+#maze {
+	text-align: center;
+	font-size: 0px;
+	margin: auto;
+}
+
+.maze-row {
+	margin-top: 3px;
+}
+
+.maze-cell {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	margin-left: 3px;
+	font-size: 15px;
+	background-color: #3498DB;
+}
+
+.maze-cell div {
+	display: table-cell;
+	height: inherit;
+	width: inherit;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.maze-cell.active {
+	background-color: green;
+	color: white;
+}
+
+#numStored {
+	color: green;
+}
